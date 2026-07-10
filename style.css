@@ -96,7 +96,7 @@ main h1{
 .person img{
   max-width:100%;
   object-fit:cover;
-  border-radius:12px 12px 0px 0px;
+  border-radius:12px;
 }
 
 .person{
