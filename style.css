@@ -242,3 +242,51 @@ header {
   font-weight: 600;
 }
 
+
+footer {
+  background: #1f2937;
+  color: white;
+  padding: 40px 80px 20px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* .logo img {
+ background-color: white;
+ border-radius:12px;
+} */
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  font-size: 1.5rem;
+  padding-right: 5px;
+}
+
+.social-links a:hover {
+  color: #38bdf8;
+}
+
+hr {
+  margin: 25px 0;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 15px;
+}
